@@ -1,0 +1,135 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.nav-cont{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.logo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul.nav a:hover { 
+    color: rgba(21, 168, 194, 0.76) !important; 
+}
+
+/* .Arkadaki fotograf */
+  .bg-image {
+    position: relative;
+    top: -25px;
+    width: 100%;
+    height: 400px;
+    /* Kullanýlan fotograf*/
+    background-image: url("../images/background.jpg");
+   
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    
+    /* Full boy */
+    height: 100%; 
+    
+    /* Cfotograf boyutlandýrma ve ortalama */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* metni sayfada/ftografta merkeze alma*/
+  .bg-text {
+    background-color: rgba(26, 19, 19, 0); /* Black w/opacity/see-through */
+    color: rgba(255, 255, 255);
+    position: absolute;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 80px;
+  }
+
+
+
+.contsec{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+ /* footer */
+footer{
+    background-color: #effdff;
+    width: auto;
+    height: 172px;
+   
+    text-align: center;
+}
+h2{
+    padding-top: 30px;
+}
+
+
+   /* Responsive */
+
+
+@media(min-width:800px) {
+    .pic-title {
+        font-size: 90px;
+    }
+
+    .pic-descrip {
+        font-size: 30px;
+    }
+}
+
+.cont1, .cont2, .cont3 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+@media(min-width:800px) {
+    .img-fluid {
+        width: 375px;
+        height: 500px;
+        border-radius: 15%;
+    }
+
+    .text1 {
+        margin-top: 150px;
+    }
+
+    .heading1 {
+        font-size: 48px;
+    }
+}
+
+.heading2 {
+    margin-bottom: 30px;
+}
+
+
+@media(max-width:800px) {
+    .img-fluid {
+        width: 100%;
+        height: 500px;
+        border-radius: 15%;
+    }
+
+    .text1 {
+        margin-top: 15px;
+    }
+
+    .heading1 {
+        font-size: 40px;
+    }
+}

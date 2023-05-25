@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaydol</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    
+<main>
+    <div class="container">
+
+        <div class="main-box">
+
+            <div class="form-box">
+                <h2>
+                    Hemen Kaydol!
+                </h2>
+
+               <div class="form-inner">
+
+                <form action="" id="signUpform">
+
+
+                    <label for="">Email</label>
+                    <input type="email" name="emailAddressInput" placeholder="Email giriniz...">
+
+                    <label for="">Sifre</label>
+                    <input type="password" name="passwordInput" placeholder="Sife giriniz...">
+
+                    <label for="">Sifreyi Dogrula</label>
+                    <input type="password" id="passwordConfirmInput" placeholder="Sifreyi tekrar giriniz...">
+
+                    <input type="submit" id="signUpBtn" value="Kaydol">
+
+                    <span>
+
+                        Hesabin var mi? <a href="sign-in.html">  Giris Yap </a>
+
+                    </span>
+
+                </form>
+               </div>
+
+            </div>
+
+            <div class="illustration-box">
+
+                <img src="images/signUp.png" alt="">
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="successful-box-container" id="successfulBoxContainer">
+        <div class="successful-box">
+
+            <img src="images/Done.svg">
+            <h2>Some Thing Went successful!</h2>
+            <a href="sign-in.html">
+                <button type="button">Let's Go to Login Center!</button>
+            </a>
+        </div>
+    </div>
+</main>
+
+
+<script type='text/javascript'>document.addEventListener('DOMContentLoaded', function () {window.setTimeout(document.querySelector('svg').classList.add('animated'),1000);})</script>
+
+    <script src="js/signUp.js"></script>
+
+</body>
+</html>
